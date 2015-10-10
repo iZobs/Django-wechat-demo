@@ -11,8 +11,8 @@ logger = logging.getLogger('django')
 # Create your views here.
 
 WECHAT_TOKEN = 'WECHAT_IZOBS'
-AppID = 'wx6109791799898b1d'
-AppSecret = '2ac875e10c05d19c32844c7af9145129'
+AppID = ''
+AppSecret = ''
 
 # 实例化 WechatBasic
 wechat_instance = WechatBasic(
