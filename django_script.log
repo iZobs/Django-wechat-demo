@@ -1,0 +1,47 @@
+2015-10-10 12:45:45,787 [uWSGIWorker2Core1:139704133940992] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:45:50,042 [uWSGIWorker1Core0:139704215836480] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:45:51,311 [uWSGIWorker1Core1:139704133940992] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:47:37,331 [uWSGIWorker2Core1:140196042278656] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:48:16,871 [uWSGIWorker2Core1:140720681580288] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:48:23,858 [uWSGIWorker1Core0:140720763475776] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:48:28,569 [uWSGIWorker1Core1:140720681580288] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:49:24,624 [uWSGIWorker2Core1:140720681580288] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:51:51,225 [uWSGIWorker1Core0:140720763475776] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:54:28,961 [uWSGIWorker1Core1:140720681580288] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:55:29,170 [uWSGIWorker1Core0:140720763475776] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 12:56:31,276 [uWSGIWorker1Core1:140720681580288] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:00:57,268 [uWSGIWorker1Core1:140720681580288] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:01:08,508 [uWSGIWorker1Core0:140720763475776] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:04:35,522 [uWSGIWorker2Core0:140111598393152] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:06:46,915 [uWSGIWorker2Core0:140492279273280] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:07:18,627 [uWSGIWorker2Core1:140492197377792] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:09:50,112 [uWSGIWorker2Core0:140568256132928] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./wechat/views.py", line 27, in Index
+    signature = request.args.get('msg_signature', '')
+AttributeError: 'WSGIRequest' object has no attribute 'args'
+2015-10-10 13:09:57,147 [uWSGIWorker2Core1:140568174237440] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /wechat/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./wechat/views.py", line 27, in Index
+    signature = request.args.get('msg_signature', '')
+AttributeError: 'WSGIRequest' object has no attribute 'args'
+2015-10-10 13:12:41,501 [uWSGIWorker2Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:13:05,794 [uWSGIWorker1Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:15:49,951 [uWSGIWorker1Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:17:53,415 [uWSGIWorker2Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:17:57,817 [uWSGIWorker2Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:16,114 [uWSGIWorker2Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:46,340 [uWSGIWorker2Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:47,944 [uWSGIWorker1Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:49,015 [uWSGIWorker1Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:50,248 [uWSGIWorker2Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:51,359 [uWSGIWorker1Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:52,504 [uWSGIWorker1Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:56,548 [uWSGIWorker2Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:57,649 [uWSGIWorker2Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:22:59,045 [uWSGIWorker1Core1:140195896071936] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/
+2015-10-10 13:23:00,362 [uWSGIWorker1Core0:140195977967424] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF cookie not set.): /wechat/

@@ -1,0 +1,14 @@
+2015-10-10 12:46:27,335 [uWSGIWorker2Core0:139666079864640] [django:34] [views:Index] [INFO]- it is post
+2015-10-10 12:47:30,420 [uWSGIWorker2Core0:140196124174144] [django:35] [views:Index] [INFO]- it is get
+2015-10-10 12:48:14,252 [uWSGIWorker2Core0:140720763475776] [django:35] [views:Index] [INFO]- it is get
+2015-10-10 12:48:33,092 [uWSGIWorker2Core0:140720763475776] [django:35] [views:Index] [INFO]- it is get
+2015-10-10 12:58:41,518 [uWSGIWorker1Core0:140720763475776] [django:35] [views:Index] [INFO]- it is get
+2015-10-10 13:07:10,053 [uWSGIWorker2Core1:140492197377792] [django:33] [views:Index] [INFO]- it is get
+2015-10-10 13:07:13,498 [uWSGIWorker1Core0:140492279273280] [django:33] [views:Index] [INFO]- it is get
+2015-10-10 13:07:16,558 [uWSGIWorker1Core1:140492197377792] [django:33] [views:Index] [INFO]- it is get
+2015-10-10 13:09:50,111 [uWSGIWorker2Core0:140568256132928] [django:26] [views:Index] [INFO]- get signature,timestamp,nonce
+2015-10-10 13:09:57,147 [uWSGIWorker2Core1:140568174237440] [django:26] [views:Index] [INFO]- get signature,timestamp,nonce
+2015-10-10 13:12:38,228 [uWSGIWorker2Core0:140195977967424] [django:25] [views:Index] [INFO]- get signature,timestamp,nonce
+2015-10-10 13:12:38,229 [uWSGIWorker2Core0:140195977967424] [django:30] [views:Index] [INFO]- it is get
+2015-10-10 13:28:30,390 [uWSGIWorker2Core0:139867088971584] [django:25] [views:Index] [INFO]- get signature,timestamp,nonce
+2015-10-10 13:28:30,391 [uWSGIWorker2Core0:139867088971584] [django:33] [views:Index] [INFO]- it is post
